@@ -16,6 +16,8 @@ func Start() {
 
 	for !storyManager.IsEnd() {
 		utils.ClearScreen()
+		utils.WriteLn(storyManager.CurrentChapterTitle())
+		utils.WriteLn("")
 		utils.WriteLn(storyManager.CurrentText())
 		utils.WriteLn("") // Empty line for spacing
 

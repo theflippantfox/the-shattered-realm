@@ -51,6 +51,9 @@ func NewStoryManager(filename string) (*StoryManager, error) {
 		CurrentScene:   0,
 	}, nil
 }
+func (sm *StoryManager) CurrentChapterTitle() string {
+	return sm.Story.Chapters[sm.CurrentChapter].Title
+}
 
 func (sm *StoryManager) CurrentText() string {
 	return sm.Story.Chapters[sm.CurrentChapter].Scenes[sm.CurrentScene].Text
