@@ -1,0 +1,10 @@
+{
+    "characters": [
+        {
+            "id": "01",
+            "name": "Hanzo",
+            "rating": "C",
+            "skills": []
+        }
+    ]
+}

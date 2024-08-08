@@ -1,4 +1,2 @@
 # The Shattered Realm
-A text based RPG made using golang
-
-###### Currently working on the story :p
+A text-based gacha, tower-climbing game built with go
