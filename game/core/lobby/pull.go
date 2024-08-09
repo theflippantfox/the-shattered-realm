@@ -1,6 +1,6 @@
 package lobby
 
-import "rpg/game/core/character"
+import "theshatteredrealm/game/core/character"
 
 func Pull() (character.Character, error) {
 	pulledCharacter, err := character.CreateCharacter()

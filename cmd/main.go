@@ -1,7 +1,7 @@
 package main
 
 import (
-	"rpg/game"
+	"theshatteredrealm/game"
 )
 
 func main() {
